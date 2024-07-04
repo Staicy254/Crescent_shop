@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+    <title>Zendawa Africa</title>
+
+    <!-- 
+    - favicon
+  -->
+    <!-- <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml"> -->
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect"href="https://fonts.gstatic.com"crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap"rel="stylesheet"/>
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/logo.png" />
+    <link
+      rel="preload"
+      as="image"
+      href="./assets/images/hero-banner-1.jpg"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="./assets/images/hero-banner-2.jpg"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="./assets/images/hero-banner-3.jpg"
+    />
+
+    <!-- javascript -->
+    <script src="cart.js" async defer></script>
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header">
+      <div class="alert">
+        <div class="container">
+          <p class="alert-text">
+            Shop with us for the best deals in the market
+          </p>
+        </div>
+      </div>
+
+      <div class="header-top" data-header>
+        <div class="container">
+          <button
+            class="nav-open-btn"
+            aria-label="open menu"
+            data-nav-toggler
+          >
+            <span class="line line-1"></span>
+            <span class="line line-2"></span>
+            <span class="line line-3"></span>
+          </button>
+
+          <a href="#" class="logo">
+            <img
+              src="./assets/images/Logo copy.png"
+              width="179"
+              height="26"
+              alt="Zendawa"
+            />
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- 
+    - #MOBILE NAVBAR
+  -->
+
+    <div class="sidebar">
+      <div class="mobile-navbar" data-navbar>
+        <div class="wrapper">
+          <a href="#" class="logo">
+            <img
+              src="./assets/images/Logo copy.png"
+              width="179"
+              height="26"
+              alt="Zendawa"
+            />
+          </a>
+
+          <button
+            class="nav-close-btn"
+            aria-label="close menu"
+            data-nav-toggler
+          >
+            <ion-icon
+              name="close-outline"
+              aria-hidden="true"
+            ></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#collection" class="navbar-link" data-nav-link
+              >Collection</a
+            >
+          </li>
+
+          <li>
+            <a href="#shop" class="navbar-link" data-nav-link>Shop</a>
+          </li>
+
+          <li>
+            <a href="#offer" class="navbar-link" data-nav-link
+              >Offer</a
+            >
+          </li>
+
+          <li>
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+
+<!-- javascript -->
+    <script src="wish.js" defer></script>
+    <title>Favorite Items</title>
+    <!-- Include your CSS and other head elements -->
+  </head>
+  <body>
+    <header>
+      <!-- Your header content -->
+    </header>
+    <main>
+      <section
+        class="section favorite"
+        id="favorite"
+        aria-label="favorite"
+      >
+        <div class="container">
+          <h2 class="h2 section-title">Your Favorite Items</h2>
+          <!-- Your favorite items content goes here -->
+          <div class="container">
+            <button id="clear-wishlist">Clear wishlist</button>
+            <ul id="wishlist-items"></ul>
+
+            <div id="totalPrice"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer" data-section>
+      <div class="container">
+        <div class="footer-top">
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Nakuru, Kenya</p>
+            </li>
+
+            <li>
+              <p class="footer-list-text bold">+254 742782395</p>
+            </li>
+
+            <li>
+              <p class="footer-list-text">info@zendawa.africa</p>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Useful links</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">New Products</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Best Sellers</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Bundle & Save</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Online Gift Card</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Infomation</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Start a Return</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Contact Us</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Shopping FAQ</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Terms & Conditions</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Privacy Policy</a>
+            </li>
+          </ul>
+
+          <div class="footer-list">
+            <p class="newsletter-title">Good emails.</p>
+
+            <p class="newsletter-text">
+              Enter your email below to be the first to know about new
+              collections and product launches.
+            </p>
+
+            <form action="" class="newsletter-form">
+              <input
+                type="email"
+                name="email_address"
+                placeholder="Enter your email address"
+                required
+                class="email-field"
+              />
+
+              <button type="submit" class="btn btn-primary">
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="wrapper">
+            <p class="copyright">&copy; 2024 Zendawa Africa.com</p>
+
+            <ul class="social-list">
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <a href="#" class="logo">
+            <img
+              src="./assets/images/Logo copy.png"
+              width="179"
+              height="26"
+              loading="lazy"
+              alt="Zendawa"
+            />
+          </a>
+
+          <img
+            src="./assets/images/pay.png"
+            width="313"
+            height="28"
+            alt="available all payment method"
+            class="w-100"
+          />
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js" defer></script>
+
+    <script>
+      window.onload = loadCart;
+    </script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
+
+    </footer>
+    <!-- Include your JS scripts -->
+  </body>
+</html>

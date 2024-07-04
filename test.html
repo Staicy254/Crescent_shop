@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="add.js"></script>
+</head>
+<body>
+         <!-- 
+        - #SHOP
+      -->
+
+      <section class="section shop" id="shop" aria-label="shop" data-section>
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Our Bestsellers</h2>
+
+            <a href="#" class="btn-link">
+              <span class="span">Shop All Products</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;" id="item1">
+                  <img src="./assets/images/411.jpeg" width="540" height="720" loading="lazy"
+                    alt="" class="img-cover">
+                    <div id="title"></div> 
+
+                  <span class="badge" aria-label="20% off">-20%</span>
+
+                  <div class="card-actions">
+
+                    <a href="cart.html">
+                      <button class="action-btn" aria-label="add to cart" onclick="addToCart(item1)">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                      </button>                     
+                    </a>
+                    
+                    <a href="wish.html">
+                    <button class="action-btn" aria-label="add to wishlist" onclick="addToWishlist(item1)">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                  </a>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <del class="del">Ksh. 3,000</del>
+
+                    <span class="span">ksh. 2,800</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">La Roche-Posay Cicaplast</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card"> 
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;" id="item2">
+                  <img src="./assets/images/412.jpeg" width="540" height="720" loading="lazy"
+                    alt="" class="img-cover">
+                    <div id="title"></div> 
+
+                  <div class="card-actions">
+
+                    <a href="cart.html">
+                    <button class="action-btn" aria-label="add to cart" onclick="addToCart(item2)">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                  </a>
+
+                  <a href="wish.html">
+                    <button class="action-btn" aria-label="add to wishlist" onclick="addToWishlist(item2)">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                  </a>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">ksh. 2,900</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">La Roche-Posay Ultra Micellar Water</a>
+                  </h3>
+
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;" id="item3">
+                  <img src="./assets/images/413.jpeg" width="540" height="720" loading="lazy"
+                    alt="" class="img-cover">
+                    <div id="title"></div> 
+
+                  <div class="card-actions">
+
+                    <a href="cart.html">
+                    <button class="action-btn" aria-label="add to cart" onclick="addToCart(item3)">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                  </a>
+
+                  <a href="wish.html">
+                    <button class="action-btn" aria-label="add to wishlist" onclick="addToWishlist(item3)">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                  </a>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">ksh. 2,800</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">La Roche-Posay Niacinamide Serum</a>
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;" id="item4">
+                  <img src="./assets/images/414.jpeg" width="540" height="720" loading="lazy"
+                    alt="" class="img-cover">
+                    <div id="title"></div> 
+
+                  <div class="card-actions">
+
+                    <a href="cart.html">
+                    <button class="action-btn" aria-label="add to cart" onclick="addToCart(item4)">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                  </a>
+
+                  <a href="wish.html">
+                    <button class="action-btn" aria-label="add to wishlist" onclick="addToWishlist(item4)">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                  </a>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">ksh. 2,500</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">La Roche-Posay Puryfying Foaming cleanser</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;" id="item5">
+                  <img src="./assets/images/416.jpeg" width="540" height="720" loading="lazy"
+                    alt="" class="img-cover">
+                    <div id="title"></div> 
+
+                  <span class="badge" aria-label="20% off">-20%</span>
+
+                  <div class="card-actions">
+
+                    <a href="cart.html">
+                    <button class="action-btn" aria-label="add to cart" onclick="addToCart(item5)">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                  </a>
+
+                  <a href="wish.html">
+                    <button class="action-btn" aria-label="add to wishlist" onclick="addToWishlist(item5)">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                  </a>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <del class="del">ksh.2,200</del>
+
+                    <span class="span">ksh. 2,000</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Cera Ve Moisturizing Cream</a>
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;" id="item6">
+                  <img src="./assets/images/417.jpeg" width="540" height="720" loading="lazy"
+                    alt="" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <a href="cart.html">
+                    <button class="action-btn" aria-label="add to cart" onclick="addToCart(item6)">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                    <div id="title"></div>
+                  </a>
+
+                  <a href="wish.html">
+                    <button class="action-btn" aria-label="add to wishlist" onclick="addToWishlist(item6)">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                    <div id="title"></div>
+                  </a>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">ksh. 2,600</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Cera Ve Hydrating Facial cleanser</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <section class="section shop" id="shop" aria-label="shop" data-section>
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">More Products</h2>
+
+            <a href="#" class="btn-link">
+              <span class="span">Shop All Products</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;" id="item7">
+                  <img src="./assets/images/418.jpeg" width="540" height="720" loading="lazy"
+                    alt="" class="img-cover">
+                    <div id="title"></div> 
+
+                  <span class="badge" aria-label="20% off">-20%</span>
+
+                  <div class="card-actions">
+
+                    <a href="cart.html">
+                    <button class="action-btn" aria-label="add to cart" onclick="addToCart(item7)">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                  </a>
+
+                  <a href="wish.html">
+                    <button class="action-btn" aria-label="add to wishlist" onclick="addToWishlist(item7)">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                  </a>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <del class="del">ksh.3,700</del>
+
+                    <span class="span">ksh. 3,500</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Cera Ve Renewing SA cleanser</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;" id="item8">
+                  <img src="./assets/images/419.jpeg" width="540" height="720" loading="lazy"
+                    alt="" class="img-cover">
+                    <div id="title"></div> 
+
+                  <div class="card-actions">
+
+                    <a href="cart.html">
+                    <button class="action-btn" aria-label="add to cart" onclick="addToCart(item8)">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                  </a>
+
+                  <a href="wish.html">
+                    <button class="action-btn" aria-label="add to wishlist" onclick="addToWishlist(item8)">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                  </a>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">ksh. 2,600</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">The Ordinary Sunscreen</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;" id="item9">
+                  <img src="./assets/images/420.jpeg" width="540" height="720" loading="lazy"
+                    alt="" class="img-cover">
+                    <div id="title"></div> 
+
+                  <div class="card-actions">
+
+                    <a href="cart.html">
+                    <button class="action-btn" aria-label="add to cart" onclick="addToCart(item9)">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                  </a>
+
+                  <a href="wish.html">
+                    <button class="action-btn" aria-label="add to wishlist" onclick="addToWishlist(item9)">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                  </a>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">ksh. 1,500</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Nivea Sunscreen</a>
+                  </h3>
+
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;" id="item10">
+                  <img src="./assets/images/411.jpeg" width="540" height="720" loading="lazy"
+                    alt="" class="img-cover">
+                    <div id="title"></div> 
+
+                  <div class="card-actions">
+
+                    <a href="cart.html">
+                    <button class="action-btn" aria-label="add to cart" onclick="addToCart(item10)">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                  </a>
+
+                  <a href="wish.html">
+                    <button class="action-btn" aria-label="add to wishlist" onclick="addToWishlist(item10)">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                  </a>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">ksh. 2,500</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">La Roche-Posay Cicaplast</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;" id="item11">
+                  <img src="./assets/images/412.jpeg" width="540" height="720" loading="lazy"
+                    alt="" class="img-cover">
+                    <div id="title"></div> 
+
+                  <span class="badge" aria-label="20% off">-20%</span>
+
+                  <div class="card-actions">
+
+                    <a href="cart.html">
+                    <button class="action-btn" aria-label="add to cart" onclick="addToCart(item11)">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                  </a>
+
+                  <a href="wish.html">
+                    <button class="action-btn" aria-label="add to wishlist" onclick="addToWishlist(item11)">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                  </a>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <del class="del">Ksh. 3,000</del>
+
+                    <span class="span">Ksh. 2,800</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">La Roche-Posay Ultra Micellar Water</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+            
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;" id="item12">
+                  <img src="./assets/images/413.jpeg" width="540" height="720" loading="lazy" alt="" class="img-cover">
+                  <div id="title"></div>
+            
+                  <div class="card-actions">
+            
+                    <a href="cart.html">
+                      <button class="action-btn" aria-label="add to cart" onclick="addToCart('item12')">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </a>
+            
+                    <a href="wish.html">
+                      <button class="action-btn" aria-label="add to wishlist" onclick="addToWishlist('item12')">
+                        <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </a>
+            
+                  </div>
+                </div>
+            
+                <div class="card-content">
+            
+                  <div class="price">
+                    <span class="span">ksh. 2,500</span>
+                  </div>
+            
+                  <h3>
+                    <a href="#" class="card-title">La Roche-Posay Niacinamide Serum</a>
+                  </h3>
+            
+                </div>
+            
+              </div>
+            </li>
+            
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BANNER
+      -->
+
+      <section class="section banner" aria-label="banner" data-section>
+        <div class="container">
+
+          <ul class="banner-list">
+
+            <li>
+              <div class="banner-card banner-card-1 has-before hover:shine">
+
+                <p class="card-subtitle">New Products in stock</p>
+
+                <h2 class="h2 card-title">Discover our amazing Skincare</h2>
+
+                <a href="#" class="btn btn-secondary">Explore More</a>
+
+                <div class="has-bg-image" style="background-image: url('./assets/images/404.jpeg')"></div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="banner-card banner-card-2 has-before hover:shine">
+
+                <h2 class="h2 card-title">Offers during holidays.</h2>
+
+                <p class="card-text">
+                  Makeup with extended range in colors to suit our customers.
+                </p>
+
+                <a href="#" class="btn btn-secondary">Shop Now</a>
+
+                <div class="has-bg-image" style="background-image: url('./assets/images/405.jpeg')"></div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+</body>
+</html>
